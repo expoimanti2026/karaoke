@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karaoke Expo IMANTI 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header>
+
+        <div class="logo">KARAOKE EXPO IMANTI 2026</div>
+
+        <div class="top-controls">
+
+            <button id="randomBtn">🎲</button>
+
+            <div id="counter" class="counter">1 de 1</div>
+
+        </div>
+
+    </header>
+
+    <section class="player">
+
+        <video id="video" controls autoplay playsinline></video>
+
+    </section>
+
+    <footer>
+
+        <button id="prev">❮</button>
+
+        <div class="info">
+
+            <div class="student-line">
+
+                <span id="student"></span>
+
+                <span id="group" class="badge"></span>
+
+            </div>
+
+            <div class="song-line">
+
+                <span id="song"></span>
+
+                <span class="separator">—</span>
+
+                <span id="artist"></span>
+
+            </div>
+
+        </div>
+
+        <button id="next">❯</button>
+
+    </footer>
+
+</div>
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+
+    <h3>Lista de estudiantes</h3>
+
+    <div id="list" class="list"></div>
+
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<script src="playlist.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
