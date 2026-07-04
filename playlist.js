@@ -154,6 +154,123 @@ artist:"Bruno Mars",
 
 video:"https://drive.google.com/file/d/1sTpuL8RvMSPjjiuYijXdhBJlwX63EgGb/preview?autoplay=1"
 
+},
+{
+
+student:"Sofía Eaton",
+
+group:"1ro B",
+
+song:"Back to you",
+
+artist:"Not for Radio",
+
+video:"https://drive.google.com/file/d/1GejSWdwFLKyVawNN64m_dPudfOhz6hz9/preview?autoplay=1"
+
+},
+{
+
+student:"Mateo Estrada",
+
+group:"1ro B",
+
+song:"Raining Tacos",
+
+artist:"Parry Gripp",
+
+video:"https://drive.google.com/file/d/19bYM9XeelkNJFY5hk5bPEppO6Bv3wZoD/preview?autoplay=1"
+
+},
+{
+
+student:"Lucía Hernández",
+
+group:"1ro B",
+
+song:"Heaven",
+
+artist:"Clairo",
+
+video:"https://drive.google.com/file/d/1P-2krMUnbEmN56mnUdeAjBuhjISMnt1F/preview?autoplay=1"
+
+},
+{
+
+student:"Ricardo Huerta",
+
+group:"1ro B",
+
+song:"Treat You Better",
+
+artist:"Shawn Mendes",
+
+video:"https://drive.google.com/file/d/1lQVSY3KNVu10QiHMkMHZzzDKdp-X3rrv/preview?autoplay=1"
+
+},
+{
+
+student:"Rafaella Montiel",
+
+group:"1ro B",
+
+song:"Baby",
+
+artist:"Justin Bieber",
+
+video:"https://drive.google.com/file/d/14xQhod9E5M9PZ_mblESkrf6SR1Le7rlm/preview?autoplay=1"
+
+},
+{
+
+student:"Sofía Oros",
+
+group:"1ro B",
+
+song:"My Kind of Woman",
+
+artist:"Mac DeMarco",
+
+video:"https://drive.google.com/file/d/1hA99IcBEJaZ3wf_itgmyVjW3-S3-VdJi/preview?autoplay=1"
+
+},
+{
+
+student:"Velia Siqueiros & Aranza Rodea",
+
+group:"1ro B",
+
+song:"Me and My Husband",
+
+artist:"Mitski",
+
+video:"https://drive.google.com/file/d/1P-9xbcVc9ZLeaFq_Hz4oqg752xmMlTZw/preview?autoplay=1"
+
+},
+{
+
+student:"Iker Villalvazo",
+
+group:"1ro B",
+
+song:"La Vacuna 20 (SpeedUp Remix)",
+
+artist:"El Bokke",
+
+video:"https://drive.google.com/file/d/1vbCCYqH2nx-xn7vmbh7Epm7MYFvydv9N/preview?autoplay=1"
+
+},
+{
+
+student:"Yavanna Wilson",
+
+group:"1ro B",
+
+song:"After Like",
+
+artist:"IVE",
+
+video:"https://drive.google.com/file/d/1oBffWO5XmGMFMfliiLZ9oh0fsPspFWrT/preview?autoplay=1"
+
 }
 
 ];
