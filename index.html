@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Karaoke Expo IMANTI 2026</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,7 +29,13 @@
 
     <section class="player">
 
-        <video id="video" controls autoplay playsinline></video>
+        <!-- IFRAME PARA GOOGLE DRIVE -->
+        <iframe
+            id="video"
+            allow="autoplay"
+            allowfullscreen
+            frameborder="0">
+        </iframe>
 
     </section>
 
@@ -39,21 +46,14 @@
         <div class="info">
 
             <div class="student-line">
-
                 <span id="student"></span>
-
                 <span id="group" class="badge"></span>
-
             </div>
 
             <div class="song-line">
-
                 <span id="song"></span>
-
                 <span class="separator">—</span>
-
                 <span id="artist"></span>
-
             </div>
 
         </div>
