@@ -9,7 +9,7 @@ song:"Cuatro Hielos",
 
 artist:"Alex Ponce & RMAND",
 
-video:"videos/carlotakaraoke.mp4"
+video:"https://drive.google.com/file/d/1KHigwLDbpFzJol8R3apJVf07RVN5KfTH/preview?autoplay=1"
 
 },
 
@@ -25,7 +25,7 @@ song:"The Less I Know The Better",
 
 artist:"Tame Impala",
 
-video:"videos/mateopugakaraoke.mp4"
+video:"https://drive.google.com/file/d/1t1Ck-MFnZhb9wjZXj7AasznbD79eYwd7/preview?autoplay=1"
 
 },
 
@@ -39,7 +39,7 @@ song:"The Copacabana",
 
 artist:"Barry Manilow",
 
-video:"videos/emanuelkaraoke.mp4"
+video:"https://drive.google.com/file/d/1yVS2t981Vyv3B04BtXP373rVEVG5Quq_/preview?autoplay=1"
 
 },
 
@@ -54,13 +54,13 @@ song:"Happy Face",
 
 artist:"Tate McRae",
 
-video:"videos/johanakaraoke.mp4"
+video:"https://drive.google.com/file/d/1WIDwbw6gW3iRkj2sInFSSZB8kjXbITK-/preview?autoplay=1"
 
 },
 
 {
 
-student:"Leonora Villarreal",
+student:"Leonora Villarreal & Victoria Turrent",
 
 group:"1ro A",
 
@@ -68,13 +68,13 @@ song:"Die With A Smile",
 
 artist:"Bruno Mars & Lady Gaga",
 
-video:"videos/leonorakaraoke.mp4"
+video:"https://drive.google.com/file/d/1tBaAHEHHsYuEwZ3-9a2J480bcbjN53Gi/preview?autoplay=1"
 
 },
 
 {
 
-student:"Alice Kober & Danna Borbón",
+student:"Alice Kober",
 
 group:"1ro A",
 
@@ -82,7 +82,7 @@ song:"All I Want For Christmas Is You",
 
 artist:"Mariah Carey",
 
-video:"videos/alicekaraoke.mp4"
+video:"https://drive.google.com/file/d/1CJu55RIlOIXwPncQtIqFvBO83EzUSAVo/preview?autoplay=1"
 
 },
 
@@ -96,7 +96,7 @@ song:"Jingle Bell Rock",
 
 artist:"Bobby Helms",
 
-video:"videos/noomikaraoke.mp4"
+video:"https://drive.google.com/file/d/1Hp1_ExdwZGEw-RTpj6VFYDZpSf-3ARGU/preview?autoplay=1"
 
 },
 
@@ -110,7 +110,7 @@ song:"Bohemian Rhapsody",
 
 artist:"Queen",
 
-video:"videos/sebastiankaraoke.mp4"
+video:"https://drive.google.com/file/d/1OHytRdBcO7vp_pIowAI85mXMydraLh4A/preview?autoplay=1"
 
 },
 
@@ -124,7 +124,7 @@ song:"Silent Running",
 
 artist:"Gorillaz ft. Adeleye Omatayo",
 
-video:"videos/hunterkaraoke.mp4"
+video:"https://drive.google.com/file/d/1JvD7fRablFptp9br0OmJX5SCY0Ka1n2P/preview?autoplay=1"
 
 },
 
@@ -138,7 +138,7 @@ song:"Real Man",
 
 artist:"Beabadoobee",
 
-video:"videos/paulettekaraoke.mp4"
+video:"https://drive.google.com/file/d/1JbTERDjBEaxeKD8lVbOTnQ8hCm-o5vH6/preview?autoplay=1"
 
 },
 
@@ -152,7 +152,7 @@ song:"Uptown Funk",
 
 artist:"Bruno Mars",
 
-video:"videos/neokaraoke.mp4"
+video:"https://drive.google.com/file/d/1sTpuL8RvMSPjjiuYijXdhBJlwX63EgGb/preview?autoplay=1"
 
 }
 
