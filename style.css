@@ -13,16 +13,17 @@ background:#0b1220;
 color:white;
 }
 
-/* 🔥 CRÍTICO PARA FLEX CORRECTO */
+/* 🔥 BASE IMPORTANTE */
 body{
 height:100vh;
+min-height:400px;
 }
 
 .app{
 height:100vh;
 display:flex;
 flex-direction:column;
-min-height:0;
+min-height:400px;
 }
 
 /* HEADER */
@@ -54,19 +55,17 @@ border-radius:10px;
 cursor:pointer;
 }
 
-/* PLAYER (CLAVE REAL) */
 .player{
 flex:1;
 display:flex;
 width:100%;
-height:100%;
-min-height:0;
+min-height:400px; 
 padding:0;
 background:black;
 overflow:hidden;
 }
 
-/* VIDEO LOCAL (por si lo usas en feria) */
+/* VIDEO LOCAL (opcional) */
 video{
 width:100%;
 height:100%;
@@ -75,17 +74,17 @@ background:black;
 border-radius:14px;
 }
 
-/* IFRAME GOOGLE DRIVE (IMPORTANTE) */
+/* IFRAME GOOGLE DRIVE */
 .player iframe{
-flex:1;
 width:100%;
 height:100%;
+flex:1;
 border:0;
 display:block;
 background:black;
 
-/* FIX VISUAL DRIVE */
-transform: scale(1.01);
+/* mejora visual Drive */
+transform:scale(1.01);
 transform-origin:center;
 }
 
@@ -99,6 +98,7 @@ background:rgba(20,25,40,.92);
 border-top:2px solid #18d8ff;
 }
 
+/* BOTONES */
 button{
 width:60px;
 height:60px;
