@@ -13,82 +13,92 @@ const randomBtn = document.getElementById("randomBtn");
 
 let current = 0;
 
-function loadVideo(){
+/* Convierte link de Drive a preview embebido */
+function toDriveEmbed(url) {
 
-const item = playlist[current];
+    if (!url) return "";
 
-student.textContent = item.student;
-group.textContent = item.group;
-song.textContent = item.song;
-artist.textContent = item.artist;
+    // Si ya es preview lo deja igual
+    if (url.includes("/preview")) return url;
 
-counter.textContent = `${current+1} de ${playlist.length}`;
+    // Si es link normal /view lo convierte
+    if (url.includes("/view")) {
+        return url.replace("/view", "/preview");
+    }
 
-video.src = item.video;
-video.load();
-video.play().catch(()=>{});
-
+    return url;
 }
 
-function next(){
-current = (current + 1) % playlist.length;
-loadVideo();
+function loadVideo() {
+
+    const item = playlist[current];
+
+    student.textContent = item.student;
+    group.textContent = item.group;
+    song.textContent = item.song;
+    artist.textContent = item.artist;
+
+    counter.textContent = `${current + 1} de ${playlist.length}`;
+
+    video.src = toDriveEmbed(item.video);
 }
 
-function prev(){
-current = (current - 1 + playlist.length) % playlist.length;
-loadVideo();
+function next() {
+    current = (current + 1) % playlist.length;
+    loadVideo();
 }
 
-function random(){
+function prev() {
+    current = (current - 1 + playlist.length) % playlist.length;
+    loadVideo();
+}
 
-let newIndex;
+function random() {
 
-do {
-newIndex = Math.floor(Math.random() * playlist.length);
-} while(newIndex === current && playlist.length > 1);
+    let newIndex;
 
-current = newIndex;
-loadVideo();
+    do {
+        newIndex = Math.floor(Math.random() * playlist.length);
+    } while (newIndex === current && playlist.length > 1);
 
+    current = newIndex;
+    loadVideo();
 }
 
 /* LISTA */
-function renderList(){
+function renderList() {
 
-list.innerHTML = "";
+    list.innerHTML = "";
 
-playlist.forEach((item, index)=>{
+    playlist.forEach((item, index) => {
 
-const div = document.createElement("div");
+        const div = document.createElement("div");
 
-div.className = "item";
+        div.className = "item";
 
-div.textContent = `${item.student} • ${item.group}`;
+        div.textContent = `${item.student} • ${item.group}`;
 
-div.onclick = ()=>{
+        div.onclick = () => {
+            current = index;
+            loadVideo();
+            closeSidebar();
+        };
 
-current = index;
-loadVideo();
-closeSidebar();
+        list.appendChild(div);
 
-};
-
-list.appendChild(div);
-
-});
+    });
 
 }
 
 /* SIDEBAR */
-function openSidebar(){
-sidebar.classList.add("open");
-overlay.classList.add("show");
+function openSidebar() {
+    sidebar.classList.add("open");
+    overlay.classList.add("show");
 }
 
-function closeSidebar(){
-sidebar.classList.remove("open");
-overlay.classList.remove("show");
+function closeSidebar() {
+    sidebar.classList.remove("open");
+    overlay.classList.remove("show");
 }
 
 /* EVENTS */
@@ -98,8 +108,6 @@ randomBtn.onclick = random;
 
 counter.onclick = openSidebar;
 overlay.onclick = closeSidebar;
-
-video.addEventListener("ended", next);
 
 /* INIT */
 renderList();
