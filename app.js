@@ -113,7 +113,7 @@ overlay.onclick = closeSidebar;
 renderList();
 loadVideo();
 
-document.getElementById("logo").addEventListener("click", () => {
+document.getElementById("tituloExpo").addEventListener("click", () => {
 
     window.location.href = "https://expoimanti2026.github.io/remixes/";
 
