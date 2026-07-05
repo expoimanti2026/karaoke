@@ -13,7 +13,6 @@ background:#0b1220;
 color:white;
 }
 
-/* 🔥 BASE IMPORTANTE */
 body{
 height:100vh;
 min-height:400px;
@@ -40,8 +39,6 @@ border-bottom:2px solid #18d8ff;
 .logo{
 font-size:26px;
 font-weight:700;
-cursor:pointer;
-transition:.2s;
 }
 
 .top-controls{
@@ -203,4 +200,11 @@ z-index:998;
 
 .overlay.show{
 display:block;
+}
+#tituloExpo{
+
+    cursor:pointer;
+
+    transition:.2s;
+
 }
