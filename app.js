@@ -112,3 +112,9 @@ overlay.onclick = closeSidebar;
 /* INIT */
 renderList();
 loadVideo();
+
+document.getElementById("logo").addEventListener("click", () => {
+
+    window.location.href = "https://expoimanti2026.github.io/remixes/";
+
+});
