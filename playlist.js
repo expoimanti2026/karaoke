@@ -99,7 +99,32 @@ artist:"Bobby Helms",
 video:"https://drive.google.com/file/d/1Hp1_ExdwZGEw-RTpj6VFYDZpSf-3ARGU/preview?autoplay=1"
 
 },
+{
 
+student:"Said Cárdenas",
+
+group:"1ro A",
+
+song:"Mr. Blue Sky",
+
+artist:"Electric Light Orchestra",
+
+video:"https://drive.google.com/file/d/1IZqYPjE-TExi_uF3IFu_GER9BlEzPCNg/preview?autoplay=1"
+
+},
+{
+
+student:"Emiliano Ríos",
+
+group:"1ro A",
+
+song:"Jingle Bells",
+
+artist:"iLab",
+
+video:"https://drive.google.com/file/d/16h2dzm1xmWVwtmPcoKEpOqQ6jFSoaeNe/preview?autoplay=1"
+
+},
 {
 
 student:"Sebastian Benitez",
